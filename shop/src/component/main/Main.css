@@ -1,0 +1,110 @@
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    min-height: 600px;
+}
+
+.products-found {
+    float: left;
+    margin: 8px 0 0;
+}
+
+.sort {
+    float: right;
+}
+
+.main-container-header {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+select {
+    background-color: #fff;
+    outline: none;
+    border: 1px solid #ececec;
+    border-radius: 2px;
+    margin-left: 10px;
+    width: auto;
+    height: 35px;
+    cursor: pointer;
+}
+
+.ship {
+    position: absolute;
+    color: #ececec;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+    font-size: .6em;
+    background-color: #1b1a20;
+    
+}
+
+.item{
+    width: 25%;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.hinh img{
+    width: 100%;
+}
+
+.gia-item{
+    font-size: 1.5rem;
+    height: 50px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.vnd{
+    font-size: 70%;
+    margin-left: 5px;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.gia-item p{
+    text-decoration: line-through;
+    margin: 0;
+    font-size: 70%;
+}
+
+.discount{
+    background: #ff6868;
+    position: absolute;
+    transform: translate(0, -50%);
+    right: 20px;
+    top: 40%;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 3.5px;
+    color: white;
+}
+
+.Add-to-cart{
+    background-color: #1b1a20;
+    color: #fff;
+    padding: 15px 0;
+    margin-top: 10px;
+    cursor: pointer;
+    -webkit-transition: background-color .2s;
+    transition: background-color .2s;
+
+}
+
+.Add-to-cart:hover{
+    background-color: #e4ba48;
+    
+    -webkit-transition: background-color .2s;
+    transition: background-color .2s;
+}
